@@ -12,7 +12,6 @@ jobs:
   analyse-and-build:
 
     name: Build
-    needs: check-code-formatting
     
     runs-on: ubuntu-latest
     
