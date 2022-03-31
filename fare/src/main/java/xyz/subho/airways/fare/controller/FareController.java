@@ -30,7 +30,7 @@ public class FareController {
 	
 	@GetMapping("/currency/{currency}")
 	public List<Fares> getFaresByCurrency(@PathVariable String currency) {
-		return getFaresByCurrency(currency);
+		return fareService.getFaresByCurrency(currency);
 	}
 	
 	@GetMapping("/value/{value}")
