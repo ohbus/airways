@@ -9,6 +9,11 @@
   <version>0.0.1</version>
   <packaging>pom</packaging>
 
+  <properties>
+    <sonar.organization>ohbus</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  </properties>
+
   <modules>
     <module>booking</module>
     <module>fare</module>
