@@ -43,7 +43,7 @@ public class FareController {
 		return fareService.saveFare(fare);
 	}
 	
-	@DeleteMapping
+	@DeleteMapping("/{id}")
 	public HttpStatus deleteFares(@PathVariable Long id) {
 		fareService.deleteFares(id);
 		return HttpStatus.OK;
